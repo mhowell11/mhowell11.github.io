@@ -35,11 +35,11 @@ const skillsSection = {
   subTitle: "I am a cybersecurity student who aims to learn about all aspects of the field. I also have web development experience in HTML/CSS/Javascript, jQuery, node, React, and Next.js",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Programming in JavaScript, Java, Python, Ruby, and HTML/CSS"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Linux and Command Line Experience"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Professional, Ethical, and Responsible Person"
     )
   ],
 
@@ -183,7 +183,7 @@ const workExperiences = {
     {
       role: "Cybersecurity Intern",
       company: "Paradise Valley Unified School District",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/pvschools.jpeg"),
       date: "April 2021 – Present",
       desc:
         "Under Construction",
@@ -191,15 +191,15 @@ const workExperiences = {
     {
       role: "Cybersecurity Intern",
       company: "Arizona State University",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/asu.png"),
       date: "August 2020 – April 2021",
       desc:
         "Under Construction"
     },
     {
       role: "WIT Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      company: "Paradise Valley Women & Information Technology",
+      companylogo: require("./assets/images/wit.png"),
       date: "June 2019 – Present",
       desc:
         "Under Construction"
@@ -270,11 +270,6 @@ const achievementSection = {
         },
         {
           name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
           url:
             ""
         }

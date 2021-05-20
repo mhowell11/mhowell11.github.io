@@ -22,7 +22,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mhowell11,
+  github: "https://github.com/mhowell11",
   linkedin: "https://www.linkedin.com/in/megan-howell-cybersecurity",
   gmail: "meganghowell@gmail.com",
   display: true // Set true to display this section, defaults to false
@@ -148,11 +148,11 @@ const techStack = {
       progressPercentage: "65%"
     },
     {
-      Stack: "Kali Linux"
+      Stack: "Kali Linux",
       progressPercentage: "60%"
     },
     {
-      Stack: "Command Line"
+      Stack: "Command Line",
       progressPercentage: "60%"
     },
     {
@@ -168,7 +168,7 @@ const techStack = {
       progressPercentage: "40%"
     },
     {
-      Stack: "Penetration Testing"
+      Stack: "Penetration Testing",
       progressPercentage: "35%"
     },
   ],

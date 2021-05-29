@@ -247,7 +247,7 @@ const bigProjects = {
 
 const achievementSection = {
     title: emoji("Achievements And Certifications 🏆 "),
-    subtitle: "My top achievements and certifications - see my CV for more!"
+    subtitle: "My top achievements and certifications - see my CV for more!",
     achievementsCards: [{
             title: "National Cyber Scholar",
             subtitle: "One of the top 570 competitors in a 48-hour CTF competition. I was granted access to the SANS Cyber Foundations Academy and a college scholarship for my achievement.",

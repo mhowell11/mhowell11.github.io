@@ -320,18 +320,17 @@ const talkSection = {
     talks: [{
             title: "CybHer Conversations (2020)",
             subtitle: "I spoke with Dr. Reem Al-Shammari, the CISO of Kuwait Oil on a panel for K-12 students interested in Cybersecurity about how to get involved with Cybersecurity. ",
-            slides_url: "https://www.youtube.com/watch?v=SHGZID3NEfw",
             event_url: "https://www.youtube.com/watch?v=SHGZID3NEfw"
-        } {
+        }, {
             title: "Covid-19 Analysis & Response Presentation (2020)",
             subtitle: "Presented modeling and other research to school district leaders"
-        } {
+        }, {
             title: "Arizona State University Partner to Protect Arizona Unconference Student Panelist (2020)",
             subtitle: "Student Panelist on a panel about the future of Cyber Security"
-        } {
+        }, {
             title: "State of the Smart Region Summit Speaker (2019)",
             subtitle: "Presented with the LoLaConnect team about our product and how it will benefit the Smart Cities Community"
-        } {
+        }, {
             title: "Arizona CIO/CTO Forum (2017, 2019, 2020)",
             subtitle: "2017 - presented on my Girls Who Code impact project. 2019 -  spoke on Artificial Intelligence & Machine Learning (AI & ML) and its impacts on the K-12 educational sphere. 2020 - spoke on my experiences competing in the AFA CyberPatriot competition."
         }

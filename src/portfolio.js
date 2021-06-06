@@ -4,9 +4,6 @@
 
 import emoji from "react-easy-emoji";
 
-const illustration = {
-    animated: true // set to false to use static SVG
-};
 
 const greeting = {
     username: "Megan Howell",

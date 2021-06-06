@@ -221,6 +221,8 @@ const bigProjects = {
             projectName: "COVID-19 Dashboard",
             projectDesc: "Due to the rapid spread of COVID-19, there are not many places on the internet with all the information for residents residing in specific zip codes. Therefore, to solve this problem, we created a website that has several sources of information for residents in various states across the United States of America. The information includes the number of COVID-19 cases in different zip codes and cities, the operation status for restaurants (open or closed), and the Twitters of state governors and city mayors. This information helps citizens to make more informed decisions on current, reliable COVID information and best respond to the COVID-19 pandemic through safety practices and procedures such as social distancing, isolation, and quarantine.",
             footerLink: [{
+                    name: "Visit the Website",
+                    url: "https://tinyurl.com/covid19-zipcode-decoder/",
                     name: "Blog Post",
                     url: "https://www.litas4girls.org/litas-team-builds-app-to-track-covid-19-1"
                 }

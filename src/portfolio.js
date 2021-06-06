@@ -189,8 +189,15 @@ const workExperiences = {
             company: "Arizona State University",
             companylogo: require("./assets/images/asu.png"),
             date: "August 2020 – April 2021",
+            desc: "LoLaConnect is a company committed to assisting cities become Smart Cities by providing a way for their citizens to connect virtually to play music together utilizing Low Latency technology by using a computer called a LoLa Node. The LoLaConnect team has developed a web application for users of LoLa Nodes to connect with each other so that they can play music together utilizing the LoLa Nodes in their communities."
+        },
+        {
+            role: "Chief Operations Officer",
+            company: "LoLaConnect",
+            companylogo: require("./assets/images/lola.png"),
+            date: "July 2019 – November 2019",
             desc: "Worked with the Information Security Team at ASU on Cloud Access Server Brokering and migrating the Departmental Security Review process to Service Now."
-        }
+        },
 
     ]
 };
@@ -236,22 +243,22 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-    title: emoji("Achievements And Certifications 🏆 "),
-    subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !(Under Construction :D)",
+    title: emoji("Awards And Certifications 🏆 "),
+    subtitle: "Megan's Awards and Certifications",
 
     achievementsCards: [{
             title: "National Cyber Scholar",
-            subtitle: "Under Construction",
-            image: require("./assets/images/codeInLogo.webp"),
+            subtitle: "One of 570 top scorers in the 2021 National Cyber Scholarship CTF that lasted 48 hours and covered web exploitation, binary exploitation, forensics, networing, and cryptography.",
+            image: require("./assets/images/NCS.png"),
             footerLink: [{
-                name: "Certification",
-                url: ""
+                name: "Badge",
+                url: "https://badgr.com/public/assertions/Je88KkaHS72fpqbguKpRAw"
             }]
         },
         {
             title: "SkillsUSA Arizona Cybersecurity Winner",
-            subtitle: "",
-            image: require("./assets/images/googleAssistantLogo.webp"),
+            subtitle: "My team won the SkillsUSA Arizona Cybersecurity competition in 2021 and progressed to Nationals. The competition focuses on defensive measures taken to secure a network. SkillsUSA is a career and technical organization that emphasizes soft skills.",
+            image: require("./assets/images/skills.jpeg"),
             footerLink: [{
                 name: "",
                 url: ""
@@ -260,27 +267,23 @@ const achievementSection = {
 
         {
             title: "NCWIT 2021 National Honorable Mention",
-            subtitle: "",
-            image: require("./assets/images/pwaLogo.webp"),
-            footerLink: [
-                { name: "Certification", url: "" },
-                {
-                    name: "",
-                    url: ""
+            subtitle: "I was one of the top 400 women who applied for the NCWIT Aspirations award out of over 4,000 applications.",
+            image: require("./assets/images/ncwit.png"),
+            footerLink: [{
+                    name: "Press Release",
+                    url: "https://www.aspirations.org/21HSrecipients"
                 }
+
             ]
         },
         {
             title: "Microsoft Technology Associate (MTA) Certifications",
-            subtitle: "",
-            image: require("./assets/images/pwaLogo.webp"),
-            footerLink: [
-                { name: "Certification", url: "" },
-                {
-                    name: "",
-                    url: ""
-                }
-            ]
+            subtitle: "MTA Certified in JavaScript, Python, Security, Java, HTML/CSS, Networking, and Mobility & Device Fundamentals",
+            image: require("./assets/images/mta.jpeg"),
+            footerLink: [{
+                name: "Certification Information",
+                url: "https://support.microsoft.com/en-us/topic/earn-a-microsoft-technology-associate-mta-certification-357215d0-31ce-0620-feba-1bb60165b770"
+            }]
         }
     ],
     display: true // Set false to hide this section, defaults to true

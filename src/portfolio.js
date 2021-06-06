@@ -361,7 +361,7 @@ const twitterDetails = {
 
 
 export {
-    illustration,
+    //illustration,
     greeting,
     socialMediaLinks,
     skillsSection,

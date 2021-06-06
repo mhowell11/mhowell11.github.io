@@ -171,26 +171,27 @@ const techStack = {
 const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
     experience: [{
+            role: "Bug Bounty Hunter",
+            company: "HackerOne & BugCrowd",
+            companylogo: require("./assets/images/virus.jpeg"),
+            date: "May 2021 – Present",
+            desc: "Freelance bug hunter for companies that partner with the bug bounty hunting companies HackerOne % BugCrown"
+        },
+        {
             role: "Cybersecurity Intern",
             company: "Paradise Valley Unified School District",
             companylogo: require("./assets/images/pvschools.jpeg"),
             date: "April 2021 – Present",
-            desc: "Under Construction",
+            desc: "I am working with the PVSchools IT department on several cybersecurity initiatives including switch management, penetration testing, computer wiping, and other activities.",
         },
         {
-            role: "Cybersecurity Intern",
+            role: "Information Security Intern",
             company: "Arizona State University",
             companylogo: require("./assets/images/asu.png"),
             date: "August 2020 – April 2021",
-            desc: "Under Construction"
-        },
-        {
-            role: "WIT Intern",
-            company: "Paradise Valley Women & Information Technology",
-            companylogo: require("./assets/images/wit.png"),
-            date: "June 2019 – Present",
-            desc: "Under Construction"
+            desc: "Worked with the Information Security Team at ASU on Cloud Access Server Brokering and migrating the Departmental Security Review process to Service Now."
         }
+
     ]
 };
 
@@ -221,7 +222,7 @@ const bigProjects = {
         {
             image: require("./assets/images/nextuLogo.webp"),
             projectName: "LoLaConnect",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            projectDesc: "LoLaConnect is a company committed to assisting cities become Smart Cities by providing a way for their citizens to connect virtually to play music together utilizing Low Latency technology by using a computer called a LoLa Node. The LoLaConnect team has developed a web application for users of LoLa Nodes to connect with each other so that they can play music together utilizing the LoLa Nodes in their communities.",
             footerLink: [{
                 name: "Visit Website",
                 url: "http://github.com/mhowell1/"

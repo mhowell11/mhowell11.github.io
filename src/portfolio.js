@@ -175,7 +175,7 @@ const workExperiences = {
             company: "HackerOne & BugCrowd",
             companylogo: require("./assets/images/virus.jpeg"),
             date: "May 2021 – Present",
-            desc: "Freelance bug hunter for companies that partner with the bug bounty hunting companies HackerOne % BugCrown"
+            desc: "Freelance bug hunter for companies that partner with the bug bounty hunting companies HackerOne & BugCrowd"
         },
         {
             role: "Cybersecurity Intern",
@@ -189,14 +189,14 @@ const workExperiences = {
             company: "Arizona State University",
             companylogo: require("./assets/images/asu.png"),
             date: "August 2020 – April 2021",
-            desc: "LoLaConnect is a company committed to assisting cities become Smart Cities by providing a way for their citizens to connect virtually to play music together utilizing Low Latency technology by using a computer called a LoLa Node. The LoLaConnect team has developed a web application for users of LoLa Nodes to connect with each other so that they can play music together utilizing the LoLa Nodes in their communities."
+            desc: "Worked with the Information Security Team at ASU on Cloud Access Server Brokering and migrating the Departmental Security Review process to Service Now."
         },
         {
             role: "Chief Operations Officer",
             company: "LoLaConnect",
             companylogo: require("./assets/images/lola.png"),
             date: "July 2019 – November 2019",
-            desc: "Worked with the Information Security Team at ASU on Cloud Access Server Brokering and migrating the Departmental Security Review process to Service Now."
+            desc: "LoLaConnect is a company committed to assisting cities become Smart Cities by providing a way for their citizens to connect virtually to play music together utilizing Low Latency technology by using a computer called a LoLa Node. The LoLaConnect team has developed a web application for users of LoLa Nodes to connect with each other so that they can play music together utilizing the LoLa Nodes in their communities."
         },
 
     ]
@@ -293,17 +293,17 @@ const achievementSection = {
 
 const blogSection = {
     title: "CTF Writeups",
-    subtitle: "Under Construction.",
+    subtitle: "My blogs detailing my experiences competing in different CTF competitions.",
 
     blogs: [{
-            url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-            title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-            description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+            url: "https://cyberqueenmeg.blogspot.com/2021/06/national-cyber-scholarship-write-up.html",
+            title: "National Cyber Scholarship ",
+            description: "Write Up of my experience competing in the National Cyber Scholarship CTF and how I became a National Cyber Scholar."
         },
         {
-            url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-            title: "Why REACT is The Best?",
-            description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+            url: "https://cyberqueenmeg.blogspot.com/2021/06/grand-canyon-university-ctf-beta-test.html",
+            title: "Grand Canyon University CTF Beta Test Write Up",
+            description: "Read about my experience beta-testing GCU's new CTF - Coming Soon!"
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -318,11 +318,26 @@ const talkSection = {
     ),
 
     talks: [{
-        title: "Build Actions For Google Assistant",
-        subtitle: "Codelab at GDG DevFest Karachi 2019",
-        slides_url: "https://bit.ly/saadpasta-slides",
-        event_url: "https://www.facebook.com/events/2339906106275053/"
-    }],
+            title: "CybHer Conversations (2020)",
+            subtitle: "I spoke with Dr. Reem Al-Shammari, the CISO of Kuwait Oil on a panel for K-12 students interested in Cybersecurity about how to get involved with Cybersecurity. ",
+            slides_url: "https://www.youtube.com/watch?v=SHGZID3NEfw",
+            event_url: "https://www.youtube.com/watch?v=SHGZID3NEfw"
+        } {
+            title: "Covid-19 Analysis & Response Presentation (2020)",
+            subtitle: "Presented modeling and other research to school district leaders"
+        } {
+            title: "Arizona State University Partner to Protect Arizona Unconference Student Panelist (2020)",
+            subtitle: "Student Panelist on a panel about the future of Cyber Security"
+        } {
+            title: "State of the Smart Region Summit Speaker (2019)",
+            subtitle: "Presented with the LoLaConnect team about our product and how it will benefit the Smart Cities Community"
+        } {
+            title: "Arizona CIO/CTO Forum (2017, 2019, 2020)",
+            subtitle: "2017 - presented on my Girls Who Code impact project. 2019 -  spoke on Artificial Intelligence & Machine Learning (AI & ML) and its impacts on the K-12 educational sphere. 2020 - spoke on my experiences competing in the AFA CyberPatriot competition."
+        }
+
+
+    ],
     display: true // Set false to hide this section, defaults to true
 };
 

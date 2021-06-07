@@ -211,7 +211,7 @@ const openSource = {
 
 const bigProjects = {
     title: "Big Projects",
-    subtitle: "Under Construction",
+    subtitle: "Large coding projects that I have completed",
     projects: [{
             image: require("./assets/images/litas.png"),
             projectName: "COVID-19 Dashboard",
@@ -300,7 +300,7 @@ const blogSection = {
         {
             url: "https://cyberqueenmeg.blogspot.com/2021/06/grand-canyon-university-ctf-beta-test.html",
             title: "Grand Canyon University CTF Beta Test Write Up",
-            description: "Read about my experience beta-testing GCU's new CTF - Coming Soon!"
+            description: "Read about my experience beta-testing GCU's new CTF"
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -316,7 +316,7 @@ const talkSection = {
 
     talks: [{
             title: "CybHer Conversations (2020)",
-            subtitle: "I spoke with Dr. Reem Al-Shammari, the CISO of Kuwait Oil on a panel for K-12 students interested in Cybersecurity about how to get involved with Cybersecurity. ",
+            subtitle: "I was on a panel for K-12 students about how to get involved with Cybersecurity. ",
             event_url: "https://www.youtube.com/watch?v=SHGZID3NEfw"
         }, {
             title: "Covid-19 Analysis & Response Presentation (2020)",
@@ -329,7 +329,7 @@ const talkSection = {
             subtitle: "Presented with the LoLaConnect team about our product and how it will benefit the Smart Cities Community"
         }, {
             title: "Arizona CIO/CTO Forum (2017, 2019, 2020)",
-            subtitle: "2017 - presented on my Girls Who Code impact project. 2019 -  spoke on Artificial Intelligence & Machine Learning (AI & ML) and its impacts on the K-12 educational sphere. 2020 - spoke on my experiences competing in the AFA CyberPatriot competition."
+            subtitle: "Presenter on my Girls Who Code project, AI in K-12, and CyberPatriot"
         }
 
 
@@ -350,7 +350,7 @@ const podcastSection = {
 
 const contactInfo = {
     title: emoji("Contact Me"),
-    subtitle: "Do you have an opportunity for a rising cybersecurity star or a question? Please contact me.",
+    subtitle: "Do you have an opportunity for a rising cybersecurity star or a question for me? Please email me.",
     email_address: "meganghowell@gmail.com"
 };
 

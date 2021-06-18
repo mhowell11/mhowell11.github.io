@@ -244,7 +244,18 @@ const achievementSection = {
     subtitle: "Megan's Awards and Certifications",
 
     achievementsCards: [{
-            title: "National Cyber Scholar",
+        {
+            title: "ETA Information Technology Security Certification",
+            subtitle: "Earned a vendor-neutral information security certification from the Electronic Technicians Association.",
+            image: require("./assets/images/eta.png"),
+            footerLink: [{
+                    name: "",
+                    url: ""
+                }
+
+            ]
+        },    
+        title: "National Cyber Scholar",
             subtitle: "One of 570 top scorers in the 2021 National Cyber Scholarship CTF that lasted 48 hours and covered web exploitation, binary exploitation, forensics, networing, and cryptography.",
             image: require("./assets/images/NCS.png"),
             footerLink: [{

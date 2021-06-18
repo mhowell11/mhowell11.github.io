@@ -244,7 +244,7 @@ const achievementSection = {
     subtitle: "Megan's Awards and Certifications",
 
     achievementsCards: [{
-        {
+        
             title: "ETA Information Technology Security Certification",
             subtitle: "Earned a vendor-neutral information security certification from the Electronic Technicians Association.",
             image: require("./assets/images/eta.png"),

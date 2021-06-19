@@ -256,7 +256,7 @@ const achievementSection = {
 
             title: "National Cyber Scholar",
             subtitle: "One of 570 top scorers in the 2021 National Cyber Scholarship CTF that lasted 48 hours and covered web exploitation, binary exploitation, forensics, networing, and cryptography.",
-            image: require("./assets/images/NCS.png"),
+            image: require, ("./assets/images/NCS.png"),
             footerLink: [{
                 name: "Badge",
                 url: "https://badgr.com/public/assertions/Je88KkaHS72fpqbguKpRAw"
